@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-dynamic-locale</artifactId>
-    <version>0.1.18-SNAPSHOT</version>
+    <version>0.1.21-SNAPSHOT</version>
     <name>Angular Dynamic Locale</name>
     <description>WebJar for Angular Dynamic Locale</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.1.17</upstream.version>
+        <upstream.version>0.1.21</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/lgalfaso/angular-dynamic-locale/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
