@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-dynamic-locale</artifactId>
-    <version>0.1.28-SNAPSHOT</version>
+    <version>0.1.32-SNAPSHOT</version>
     <name>Angular Dynamic Locale</name>
     <description>WebJar for Angular Dynamic Locale</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.1.27</upstream.version>
+        <upstream.version>0.1.32</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/lgalfaso/angular-dynamic-locale/${upstream.version}</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
@@ -113,13 +113,13 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5</version>
+                <version>2.5.3</version>
             </plugin>
 
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.5.1</version>
+                <version>1.6.7</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>sonatype-nexus-staging</serverId>
